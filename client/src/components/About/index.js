@@ -34,6 +34,7 @@ class About extends Component {
       <div>
       
          <Username username={this.state.userId} />
+         <Username username={member.username} />
         <br />
 
         <strong>Bitcoin</strong><strong className="balance">Баланс :  -.--</strong>
