@@ -32,11 +32,11 @@ class About extends Component {
     return (
       <div>
 
-        <strong>Bitcoin</strong><strong style="padding-left: 125px;">Баланс :  -.--</strong>
+        <strong>Bitcoin</strong><strong className="balance">Баланс :  -.--</strong>
         <p>189sPnHGcjP5uteg2UuNgcJ5eoaRAP4Bw4</p>
-        <strong>Ethereum</strong><strong style="padding-left: 125px;">Баланс :  -.--</strong>
+        <strong>Ethereum</strong><strong className="balance">Баланс :  -.--</strong>
         <p>0xD6e3D881036903999E2c0480fe9d2c20600C1c28</p>
-        <strong>Litecoin</strong><strong style="padding-left: 125px;">Баланс :  -.--</strong>
+        <strong>Litecoin</strong><strong className="balance">Баланс :  -.--</strong>
         <p>LUViQeSggBBtYoN2qNtXSuxYoRMzRY8CSX</p>
         <br />
 
