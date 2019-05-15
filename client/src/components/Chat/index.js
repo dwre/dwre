@@ -69,7 +69,7 @@ export class Chat extends Component {
       action: (params) => { // eslint-disable-line
         const validCommands = this.commands.map(command => `/${command.command}`)
         this.props.showNotice({
-          message: `Valid commands: ${validCommands.sort().join(', ')}`,
+          message: `Команды: ${validCommands.sort().join(', ')}`,
           level: 'info',
         })
       },
