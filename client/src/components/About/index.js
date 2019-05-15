@@ -33,7 +33,7 @@ class About extends Component {
     return (
       <div>
       
-      <strong className="usr_name"> Имя пользователя: </strong>
+      <strong className="usr_name"> Имя пользователя : </strong>
          
         <br />
 
