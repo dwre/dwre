@@ -254,13 +254,13 @@ export default class Home extends Component {
       case 'Connecting':
         return {
           component: <Connecting />,
-          title: 'Connecting...',
+          title: 'Соединение...',
           preventClose: true,
         }
       case 'About':
         return {
           component: <About roomId={this.props.roomId} />,
-          title: 'About',
+          title: 'О нас',
         }
       case 'Settings':
         return {
@@ -275,7 +275,7 @@ export default class Home extends Component {
       case 'Room Locked':
         return {
           component: <RoomLocked />,
-          title: 'This room is locked',
+          title: 'Заблокировано',
           preventClose: true,
         }
       default:
