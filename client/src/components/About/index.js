@@ -33,7 +33,25 @@ class About extends Component {
     return (
       <div>
       
-         <Username username={this.state.userId} />{this.state.userId} 
+         <ul className="plain">
+                {this.props.members.map((member, index) => (
+                  <li key={`user-${index}`}>
+                    <Username username={member.username} />
+                    <span className="icon-container">
+                      {member.id === this.props.userId &&
+                        <span data-toggle="tooltip" data-placement="bottom" title="Me" className="me-icon-wrap">
+                          <User className="me-icon" />
+                        </span>
+                      }
+                      {member.isOwner &&
+                        <span data-toggle="tooltip" data-placement="bottom" title="Owner" className="owner-icon-wrap">
+                          <Star className="owner-icon" />
+                        </span>
+                      }
+                    </span>
+                  </li>
+                ))}
+              </ul>
          
         <br />
 
