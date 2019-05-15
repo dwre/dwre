@@ -69,7 +69,7 @@ class Nav extends Component {
           <button
             data-toggle="tooltip"
             data-placement="bottom"
-            title="Copied"
+            title="Ссылка скопирована"
             data-clipboard-text={`https://black-chat.herokuapp.com/${this.props.roomId}`}
             className="btn btn-plain btn-link clipboard-trigger room-id ellipsis">
             {`/${this.props.roomId}`}
