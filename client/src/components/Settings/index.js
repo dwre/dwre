@@ -44,7 +44,7 @@ class Settings extends Component {
           <h5>Слэш команды</h5>
           <p>Доступны:</p>
           <ul>
-            <li>/nick [username] <span className="text-muted">сменить имя</span></li>
+            <li>/nick [никнейм] <span className="text-muted">сменить имя</span></li>
             <li>/me [action] <span className="text-muted">выполнить действие</span></li>
             <li>/clear <span className="text-muted">очистить историю сообщений</span></li>
             <li>/help <span className="text-muted">показать все команды</span></li>
