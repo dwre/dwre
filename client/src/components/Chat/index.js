@@ -253,7 +253,7 @@ export class Chat extends Component {
           autoFocus
           className="chat"
           value={this.state.message}
-          placeholder="Type here"
+          placeholder="Пишите"
           onChange={this.handleInputChange.bind(this)} />
         <div className="input-controls">
           <FileTransfer sendSocketMessage={this.props.sendSocketMessage} />
