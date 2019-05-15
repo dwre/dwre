@@ -19,7 +19,6 @@ class Welcome extends Component {
             <li>Поддерживает (Chrome, Firefox, Safari, Safari iOS, Android)</li>
             <li>Комманды (/nick, /me, /clear)</li>
             <li>Владельцы чата могут заблокировать комнату, не позволяя никому присоединиться</li>
-            <li>фронтенд React.js & Redux</li>
             <li>Файлы до 4 MB</li>
           </ul>
           <div>
