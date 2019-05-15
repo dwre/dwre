@@ -1,8 +1,8 @@
 /* eslint-disable */
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import apiUrlGenerator from '../../api/generator';
-import Username from 'components/Username'
+import apiUrlGenerator from '../../api/generator'
+import Username from 'components/Username';
 
 class About extends Component {
   constructor(props) {
