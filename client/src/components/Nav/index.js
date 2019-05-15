@@ -136,14 +136,14 @@ class Nav extends Component {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-              <button className="btn btn-plain nav-link" onClick={this.newRoom.bind(this)}target="blank"><PlusCircle /> <span>New Room</span></button>
+              <button className="btn btn-plain nav-link" onClick={this.newRoom.bind(this)}target="blank"><PlusCircle /> <span>Чат</span></button>
             </li>
             <li className="nav-item">
-              <button onClick={this.handleSettingsClick.bind(this)} className="btn btn-plain nav-link"><Settings /> <span>Settings</span></button>
-            </li>
+              <button onClick={this.handleSettingsClick.bind(this)} className="btn btn-plain nav-link"><Settings /> <span>Настройки</span></button>
+            </li><!--
             <li className="nav-item">
               <button onClick={this.handleAboutClick.bind(this)} className="btn btn-plain nav-link"><Info /> <span>About</span></button>
-            </li>
+            </li>-->
           </ul>
         </div>
       </nav>
