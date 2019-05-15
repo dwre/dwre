@@ -28,26 +28,26 @@ class Settings extends Component {
         </div>
         <br />
         <div>
-          <h5>Room Ownership</h5>
-          <p>The person who created the room is the room owner and has special privileges, like the ability to lock and unlock the room.
-          If the owner leaves the room, the second person to join assumes ownership. If they leave, the third person becomes owner, and so on.
-          The room owner has a star icon next to their username in the participants dropdown.
+          <h5>Права</h5>
+          <p>Человек, создавший комнату, является владельцем комнаты и обладает особыми привилегиями, такими как возможность запирать и разблокировать комнату.
+           Если владелец покидает комнату, второй человек, который присоединится, принимает на себя ответственность. Если они уходят, третье лицо становится владельцем и так далее.
+           Владелец комнаты имеет значок звездочки рядом с его именем пользователя в раскрывающемся списке участников.
           </p>
         </div>
         <br />
         <div>
-          <h5>Lock Room</h5>
-          <p>If you are the room owner, you can lock and unlock the room by clicking the lock icon in the nav bar. When a room is locked, no other participants will be able to join.</p>
+          <h5>Блок</h5>
+          <p>Если вы владелец комнаты, вы можете заблокировать и разблокировать комнату, щелкнув значок замка в навигационной панели. Когда комната закрыта, другие участники не смогут присоединиться.</p>
         </div>
         <br />
         <div>
-          <h5>Slash Commands</h5>
-          <p>The following slash commands are available:</p>
+          <h5>Слэш команды</h5>
+          <p>Доступны:</p>
           <ul>
-            <li>/nick [username] <span className="text-muted">changes username</span></li>
-            <li>/me [action] <span className="text-muted">performs an action</span></li>
-            <li>/clear <span className="text-muted">clears your message history</span></li>
-            <li>/help <span className="text-muted">lists all commands</span></li>
+            <li>/nick [username] <span className="text-muted">сменить имя</span></li>
+            <li>/me [action] <span className="text-muted">выполнить действие</span></li>
+            <li>/clear <span className="text-muted">очистить историю сообщений</span></li>
+            <li>/help <span className="text-muted">показать все команды</span></li>
           </ul>
         </div>
       </div>
