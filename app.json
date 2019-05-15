@@ -7,7 +7,7 @@
     "privacy"
   ],
   "website": "https://darkwire.io",
-  "repository": "https://github.com/darkwire/darkwire.io",
+  "repository": "https://github.com/dwre/dwre",
   "env": {
     "MAILGUN_API_KEY": {
       "description": "Mailgun API Key (only required for abuse reporting)",
