@@ -260,7 +260,7 @@ export default class Home extends Component {
       case 'About':
         return {
           component: <About roomId={this.props.roomId} />,
-          title: 'О нас',
+          title: 'Личный Кабинет',
         }
       case 'Settings':
         return {
