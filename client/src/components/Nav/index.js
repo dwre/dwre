@@ -142,7 +142,7 @@ class Nav extends Component {
               <button onClick={this.handleSettingsClick.bind(this)} className="btn btn-plain nav-link"><Settings /> <span>Настройки</span></button>
             </li>
             <li className="nav-item">
-               <button onClick={this.handleAboutClick.bind(this)} className="btn btn-plain nav-link"><Info /> <span>Профиль</span></button>
+               <button onClick={this.handleAboutClick.bind(this)} className="btn btn-plain nav-link"><Info /> <span>Кабинет</span></button>
             </li>
           </ul>
         </div>
