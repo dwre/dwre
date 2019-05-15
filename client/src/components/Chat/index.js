@@ -24,7 +24,7 @@ export class Chat extends Component {
       paramaters: ['{username}'],
       usage: '/nick {username}',
       scope: 'global',
-      action: (params) => { // eslint-disable-line
+      action: (params) => {                      // eslint-disable-line
         let newUsername = params.join(' ') || '' // eslint-disable-line
 
         // Remove things that arent digits or chars
@@ -69,7 +69,7 @@ export class Chat extends Component {
       action: (params) => { // eslint-disable-line
         const validCommands = this.commands.map(command => `/${command.command}`)
         this.props.showNotice({
-          message: `Команды: ${validCommands.sort().join(', ')}`,
+          message: `Команды : ${validCommands.sort().join(', ')}`,
           level: 'info',
         })
       },
