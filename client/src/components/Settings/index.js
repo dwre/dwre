@@ -11,7 +11,7 @@ class Settings extends Component {
     return (
       <div>
         <div>
-          <h5>Sound</h5>
+          <h5>Звук</h5>
           <form>
             <div className="form-check">
               <label className="form-check-label" htmlFor="sound-control">
