@@ -63,8 +63,8 @@ class Nav extends Component {
   render() {
     return (
       <nav className="navbar navbar-expand-md navbar-dark">
-        <div className="meta"><!--
-          <img src={logoImg} alt="Darkwire" className="logo" />-->
+        <div className="meta">
+          <img src={logoImg} alt="Darkwire" className="logo" />
 
           <button
             data-toggle="tooltip"
