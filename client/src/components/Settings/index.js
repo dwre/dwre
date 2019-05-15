@@ -23,7 +23,7 @@ class Settings extends Component {
         </div>
         <br />
         <div>
-          <h5>This room</h5>
+          <h5>Чат</h5>
           <RoomLink roomId={this.props.roomId} />
         </div>
         <br />
