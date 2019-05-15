@@ -33,15 +33,15 @@ export class Chat extends Component {
         const errors = []
 
         if (!newUsername.trim().length) {
-          errors.push('Username cannot be blank')
+          errors.push('Имя пользователя не может быть пустым')
         }
 
         if (newUsername.toString().length > 16) {
-          errors.push('Username cannot be greater than 16 characters')
+          errors.push('Имя пользователя не может быть более 16 символов')
         }
 
         if (!newUsername.match(/^[A-Z]/i)) {
-          errors.push('Username must start with a letter')
+          errors.push('Имя пользователя должно начинатся с буквы')
         }
 
         if (errors.length) {
