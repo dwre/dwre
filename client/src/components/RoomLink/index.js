@@ -46,7 +46,7 @@ class RoomLink extends Component {
                 data-toggle="tooltip"
                 data-placement="bottom"
                 data-clipboard-text={this.state.roomUrl}
-                title="Скопировано"
+                title="Скопировано "
               >
                 <Copy className="mt-1" />
               </button>
