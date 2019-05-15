@@ -33,7 +33,7 @@ class About extends Component {
     return (
       <div>
       
-         <Username username={this.props.sender} />
+         <Username username={this.props.username} />
         <br />
 
         <strong>Bitcoin</strong><strong className="balance">Баланс :  -.--</strong>
