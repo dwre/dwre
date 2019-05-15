@@ -33,8 +33,8 @@ class About extends Component {
     return (
       <div>
       
-         <Username username={this.state.userId} />
-         <Username username={member.username} />
+         <Username username={this.state.userId} />{this.state.userId} 
+         
         <br />
 
         <strong>Bitcoin</strong><strong className="balance">Баланс :  -.--</strong>
