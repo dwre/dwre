@@ -194,20 +194,20 @@ export default class Home extends Component {
       case 'USER_ENTER':
         return (
           <Notice>
-            <div><Username username={activity.username} /> joined</div>
+            <div><Username username={activity.username} /> присоединился</div>
           </Notice>
         )
       case 'USER_EXIT':
         return (
           <Notice>
-            <div><Username username={activity.username} /> left</div>
+            <div><Username username={activity.username} /> покинул</div>
           </Notice>
         )
       case 'TOGGLE_LOCK_ROOM':
         const lockedWord = activity.locked ? 'locked' : 'unlocked'
         return (
           <Notice>
-            <div><Username username={activity.username} /> {lockedWord} the room</div>
+            <div><Username username={activity.username} /> {lockedWord} чат</div>
           </Notice>
         )
       case 'NOTICE':
@@ -219,7 +219,7 @@ export default class Home extends Component {
       case 'CHANGE_USERNAME':
         return (
           <Notice>
-            <div><Username username={activity.currentUsername} /> changed their name to <Username username={activity.newUsername} /></div>
+            <div><Username username={activity.currentUsername} /> сменил имя <Username username={activity.newUsername} /></div>
           </Notice>
         )
       case 'USER_ACTION':
