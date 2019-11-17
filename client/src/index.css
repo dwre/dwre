@@ -12,3 +12,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.main-chat {
+    padding-top: 55px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-size: contain;
+    background-image: url(http://papers.co/wallpaper/papers.co-va81-wallpaper-emoticon-charms-bw-pattern-23-wallpaper.jpg);
+}
