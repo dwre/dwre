@@ -31,6 +31,6 @@ li.activity-item.SEND_MESSAGE {
     border-radius: 4px; */
 }
 textarea.chat{border-top: none!important;}
-
 .btn.focus, .btn:focus {box-shadow: none;}
+nav{border-bottom: none!important;}
 
