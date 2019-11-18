@@ -32,3 +32,7 @@ textarea.chat{border-top: none!important;}
 .btn.focus, .btn:focus {box-shadow: none;}
 nav{border-bottom: none!important;}
 
+textarea.chat {
+  font-weight: 700;
+}
+
