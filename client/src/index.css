@@ -19,20 +19,16 @@ code {
     background-blend-mode: color;
   /*background-color: #0000005e;*/
 }
-/*.activity-item.SEND_MESSAGE .chat {
-    font-weight: 700;
-}*/
+
 li.activity-item.SEND_MESSAGE {
     background-color: #0000006b;
     font-weight: 700;
-   /* border: 1px solid #bbbbbb63;
-    border-radius: 4px; */
+    padding: 10px;
+    border-radius: 5px;
 }
-textarea.chat{border-top: none!important;}
-.btn.focus, .btn:focus {box-shadow: none;}
-nav{border-bottom: none!important;}
 
-textarea.chat {
-  font-weight: 700;
-}
+textarea.chat{border-top: none!important;}
+.btn.focus, .btn:focus{box-shadow: none;}
+nav{border-bottom: none!important;}
+textarea.chat{font-weight: 700;}
 
