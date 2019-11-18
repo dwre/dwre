@@ -21,6 +21,13 @@ code {
     background-size: contain;
     background-image: url(http://papers.co/wallpaper/papers.co-va81-wallpaper-emoticon-charms-bw-pattern-23-wallpaper.jpg);
 }
-.activity-item.SEND_MESSAGE .chat {
+/*.activity-item.SEND_MESSAGE .chat {
     font-weight: 700;
+}*/
+li.activity-item.SEND_MESSAGE {
+    background-color: #0000006b;
+    font-weight: 700;
+    border: 1px solid #bbbbbb63;
+    border-radius: 4px;
 }
+
