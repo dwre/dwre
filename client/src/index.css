@@ -32,3 +32,5 @@ li.activity-item.SEND_MESSAGE {
 }
 textarea.chat{border-top: none!important;}
 
+.btn.focus, .btn:focus {box-shadow: none;}
+
