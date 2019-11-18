@@ -19,7 +19,7 @@ code {
     flex-direction: column;
     height: 100%;
     background-size: contain;
-    background-image: url(http://papers.co/wallpaper/papers.co-va81-wallpaper-emoticon-charms-bw-pattern-23-wallpaper.jpg);
+    background-image: url(/bg.jpg);
 }
 /*.activity-item.SEND_MESSAGE .chat {
     font-weight: 700;
