@@ -14,7 +14,7 @@ code {
 }
 
 .main-chat {
-    background-size: contain;
+    background-size: auto;
     background-image: url(/bg.png);
     background-blend-mode: color;
   /*background-color: #0000005e;*/
