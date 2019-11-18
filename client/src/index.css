@@ -15,9 +15,9 @@ code {
 
 .main-chat {
     background-size: contain;
-    background-image: url(/bg.jpg);
+    background-image: url(/bg.png);
     background-blend-mode: color;
-    background-color: #0000005e;
+  /*background-color: #0000005e;*/
 }
 /*.activity-item.SEND_MESSAGE .chat {
     font-weight: 700;
