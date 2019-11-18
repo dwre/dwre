@@ -30,4 +30,5 @@ li.activity-item.SEND_MESSAGE {
    /* border: 1px solid #bbbbbb63;
     border-radius: 4px; */
 }
+textarea.chat{border-top:none; }
 
