@@ -27,7 +27,7 @@ code {
 li.activity-item.SEND_MESSAGE {
     background-color: #0000006b;
     font-weight: 700;
-    border: 1px solid #bbbbbb63;
-    border-radius: 4px;
+   /* border: 1px solid #bbbbbb63;
+    border-radius: 4px; */
 }
 
