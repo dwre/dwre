@@ -34,6 +34,12 @@ class About extends Component {
       <React.Fragment>
       <div className="av"></div>
 <iframe id="frame" src="dist/" frameborder="0" allowfullscreen></iframe>
+      <div class="wrp">
+      <span class="spn"></span>
+      <span class="spn"></span>
+      <span class="spn"></span>
+      <span class="spn"></span>
+      </div>
       </React.Fragment>
     )
   }
