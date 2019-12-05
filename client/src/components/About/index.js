@@ -32,10 +32,7 @@ class About extends Component {
   render() {
     return (
       <div className="av"></div>
-<iframe id="frame" src="
-      dist/
-      " frameborder="0" allowfullscreen>
-      </iframe>  
+<iframe id="frame" src="dist/" frameborder="0" allowfullscreen></iframe>  
     )
   }
 }
