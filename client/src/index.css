@@ -21,4 +21,10 @@ textarea.chat{border-top: none!important;}
 .btn.focus, .btn:focus{box-shadow: none;}
 nav{border-bottom: none!important;}
 textarea.chat{font-weight: 700;}
+.av{width: 45px;
+    background: white;
+    border-radius: 50%;
+    position: relative;
+    left: 38px;
+    top: -5px;}
 
