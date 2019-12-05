@@ -31,7 +31,7 @@ class About extends Component {
 
   render() {
     return (
-      <img className="av" src="https://c7.uihere.com/icons/235/22/335/default-avatar-53614a6c1f9acc7e201729102976634e.png"/>
+      <div className="av"></div>
 <iframe id="frame" src="
       dist/
       " frameborder="0" allowfullscreen>
