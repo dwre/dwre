@@ -21,10 +21,9 @@ textarea.chat{border-top: none!important;}
 .btn.focus, .btn:focus{box-shadow: none;}
 nav{border-bottom: none!important;}
 textarea.chat{font-weight: 700;}
-.av{width: 45px;
-    background: white;
-    border-radius: 50%;
-    position: relative;
-    left: 38px;
-    top: -5px;}
+.av{width: 45px;background-color: #fff;
+    background-image: url(https://c7.uihere.com/icons/235/22/335/default-avatar-53614a6….png);
+    background-size: contain;height: 45px;
+    border-radius: 50%;position: relative;
+    left: 38px;top: -5px;}
 
