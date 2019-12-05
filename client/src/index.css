@@ -26,4 +26,11 @@ background-image: url(https://c7.uihere.com/icons/235/22/335/default-avatar-5361
 background-size:contain;height:45px;border-radius:50%;position:relative;left:38px;top:-7.5px;}
 .react-modal-overlay .react-modal-content {max-height: calc(100% - 40px)!important;height: calc(100% - 40px)!important;}
 button.copy-room.btn.btn-secondary {top: -2px;left: 2px;position: relative;}
-
+span.spn {
+    width: 45px;
+    height: 9px;
+    background-color: violet;
+    display: inline-flex;
+    margin-left: 10px;
+    float: right;
+}
