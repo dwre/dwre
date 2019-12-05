@@ -25,4 +25,5 @@ textarea.chat{font-weight: 700;}
 background-image: url(https://c7.uihere.com/icons/235/22/335/default-avatar-53614a6c1f9acc7e201729102976634e.png);
 background-size:contain;height:45px;border-radius:50%;position:relative;left:38px;top:-7.5px;}
 .react-modal-overlay .react-modal-content {max-height: calc(100% - 40px)!important;height: calc(100% - 40px)!important;}
+button.copy-room.btn.btn-secondary {top: -2px;left: 2px;position: relative;}
 
