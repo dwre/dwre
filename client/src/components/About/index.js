@@ -32,38 +32,38 @@ class About extends Component {
   render() {
     return (
       
-      <div id="aspect-content">
-  <div class="aspect-tab ">
-    <input id="item-18" type="checkbox" class="aspect-input" name="aspect">
-    <label for="item-18" class="aspect-label"></label>
-    <div class="aspect-content">
-        <div class="aspect-info">
-            <div class="chart-pie negative over50">
-                <span class="chart-pie-count">69</span>
+<div id="aspect-content">
+  <div className="aspect-tab ">
+    <input id="item-18" type="checkbox" className="aspect-input" name="aspect">
+    <label for="item-18" className="aspect-label"></label>
+    <div className="aspect-content">
+        <div className="aspect-info">
+            <div className="chart-pie negative over50">
+                <span className="chart-pie-count">69</span>
                 <div>
-                    <div class="first-fill"></div>
-                    <div class="second-fill" style="transform: rotate(249deg)"></div>
+                    <div className="first-fill"></div>
+                    <div className="second-fill" style="transform: rotate(249deg)"></div>
                 </div>
             </div>
-            <span class="aspect-name">Пользователь </span>
+            <span className="aspect-name">Пользователь </span>
         </div>
-        <div class="aspect-stat">
-            <div class="all-opinions">
-                <span class="all-opinions-count">18</span>
+        <div className="aspect-stat">
+            <div className="all-opinions">
+                <span className="all-opinions-count">18</span>
                 <span>событий</span>
             </div>
             <div>
-                <span class="positive-count">4</span>
-                <span class="neutral-count">1</span>
-                <span class="negative-count">13</span>
+                <span className="positive-count">4</span>
+                <span className="neutral-count">1</span>
+                <span className="negative-count">13</span>
             </div>
         </div>
     </div>
-    <div class="aspect-tab-content">
-        <div class="sentiment-wrapper">
+    <div className="aspect-tab-content">
+        <div className="sentiment-wrapper">
             <div>
                 <div>
-                    <div class="positive-count opinion-header">
+                    <div className="positive-count opinion-header">
                         <span>positive</span>
                         <span>4</span>
                     </div>
@@ -74,7 +74,7 @@ class About extends Component {
             </div>
             <div>
                 <div>
-                    <div class="neutral-count opinion-header">
+                    <div className="neutral-count opinion-header">
                         <span>neutral</span>
                         <span>1</span>
                     </div>
@@ -85,7 +85,7 @@ class About extends Component {
             </div>
             <div>
                 <div>
-                    <div class="negative-count opinion-header">
+                    <div className="negative-count opinion-header">
                         <span>negative</span>
                         <span>13</span>
                     </div>
@@ -97,37 +97,37 @@ class About extends Component {
         </div>
     </div>
   </div>
-  <div class="aspect-tab ">
-    <input id="item-14" type="checkbox" class="aspect-input" name="aspect">
-    <label for="item-14" class="aspect-label"></label>
-    <div class="aspect-content">
-        <div class="aspect-info">
-            <div class="chart-pie positive over50">
-                <span class="chart-pie-count">58</span>
+  <div className="aspect-tab ">
+    <input id="item-14" type="checkbox" className="aspect-input" name="aspect">
+    <label for="item-14" className="aspect-label"></label>
+    <div className="aspect-content">
+        <div className="aspect-info">
+            <div className="chart-pie positive over50">
+                <span className="chart-pie-count">58</span>
                 <div>
-                    <div class="first-fill"></div>
-                    <div class="second-fill" style="transform: rotate(209deg)"></div>
+                    <div className="first-fill"></div>
+                    <div className="second-fill" style="transform: rotate(209deg)"></div>
                 </div>
             </div>
-            <span class="aspect-name">Кошельки и операции</span>
+            <span className="aspect-name">Кошельки и операции</span>
         </div>
-        <div class="aspect-stat">
-            <div class="all-opinions">
-                <span class="all-opinions-count">22</span>
+        <div className="aspect-stat">
+            <div className="all-opinions">
+                <span className="all-opinions-count">22</span>
                 <span>события</span>
             </div>
             <div>
-                <span class="positive-count">12</span>
-                <span class="neutral-count">5</span>
-                <span class="negative-count">5</span>
+                <span className="positive-count">12</span>
+                <span className="neutral-count">5</span>
+                <span className="negative-count">5</span>
             </div>
         </div>
     </div>
-    <div class="aspect-tab-content">
-        <div class="sentiment-wrapper">
+    <div className="aspect-tab-content">
+        <div className="sentiment-wrapper">
             <div>
                 <div>
-                    <div class="positive-count opinion-header">
+                    <div className="positive-count opinion-header">
                         <span>positive</span>
                         <span>12</span>
                     </div>
@@ -138,7 +138,7 @@ class About extends Component {
             </div>
             <div>
                 <div>
-                    <div class="neutral-count opinion-header">
+                    <div className="neutral-count opinion-header">
                         <span>neutral</span>
                         <span>5</span>
                     </div>
@@ -149,7 +149,7 @@ class About extends Component {
             </div>
             <div>
                 <div>
-                    <div class="negative-count opinion-header">
+                    <div className="negative-count opinion-header">
                         <span>negative</span>
                         <span>5</span>
                     </div>
@@ -161,37 +161,37 @@ class About extends Component {
         </div>
     </div>
   </div>
-  <div class="aspect-tab ">
-    <input id="item-2" type="checkbox" class="aspect-input" name="aspect">
-    <label for="item-2" class="aspect-label"></label>
-    <div class="aspect-content">
-        <div class="aspect-info">
-            <div class="chart-pie positive">
-                <span class="chart-pie-count">33</span>
+  <div className="aspect-tab ">
+    <input id="item-2" type="checkbox" className="aspect-input" name="aspect">
+    <label for="item-2" className="aspect-label"></label>
+    <div className="aspect-content">
+        <div className="aspect-info">
+            <div className="chart-pie positive">
+                <span className="chart-pie-count">33</span>
                 <div>
-                    <div class="first-fill"></div>
-                    <div class="second-fill" style="transform: rotate(119deg)"></div>
+                    <div className="first-fill"></div>
+                    <div className="second-fill" style="transform: rotate(119deg)"></div>
                 </div>
             </div>
-            <span class="aspect-name">Командная строка</span>
+            <span className="aspect-name">Командная строка</span>
         </div>
-        <div class="aspect-stat">
-            <div class="all-opinions">
-                <span class="all-opinions-count">7</span>
+        <div className="aspect-stat">
+            <div className="all-opinions">
+                <span className="all-opinions-count">7</span>
                 <span>событий</span>
             </div>
             <div>
-                <span class="positive-count">3</span>
-                <span class="neutral-count">2</span>
-                <span class="negative-count">2</span>
+                <span className="positive-count">3</span>
+                <span className="neutral-count">2</span>
+                <span className="negative-count">2</span>
             </div>
         </div>
     </div>
-    <div class="aspect-tab-content">
-        <div class="sentiment-wrapper">
+    <div className="aspect-tab-content">
+        <div className="sentiment-wrapper">
             <div>
                 <div>
-                    <div class="positive-count opinion-header">
+                    <div className="positive-count opinion-header">
                         <span>positive</span>
                         <span>3</span>
                     </div>
@@ -202,7 +202,7 @@ class About extends Component {
             </div>
             <div>
                 <div>
-                    <div class="neutral-count opinion-header">
+                    <div className="neutral-count opinion-header">
                         <span>neutral</span>
                         <span>2</span>
                     </div>
@@ -213,7 +213,7 @@ class About extends Component {
             </div>
             <div>
                 <div>
-                    <div class="negative-count opinion-header">
+                    <div className="negative-count opinion-header">
                         <span>negative</span>
                         <span>2</span>
                     </div>
