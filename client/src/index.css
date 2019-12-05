@@ -14,7 +14,7 @@ code {
 }
 
 .main-chat {background-size: auto;background-image: url(/bg.png);background-blend-mode: color;}
-#frame{width:100%;height:50vh;border-radius: 10px;}
+#frame{width:100%;height:75vh;border-radius: 10px;}
 li.activity-item.SEND_MESSAGE {background-color: #0000006b;font-weight: 700;padding: 10px;border-radius: 5px;}
 .react-modal-overlay .react-modal-content {max-width: 843px!important;}
 textarea.chat{border-top: none!important;}
