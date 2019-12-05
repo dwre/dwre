@@ -31,9 +31,10 @@ class About extends Component {
 
   render() {
     return (
-      
-<iframe id="frame" src="https://approbatory-conspir.000webhostapp.com/video/view.html" frameborder="0" allowfullscreen></iframe>
-      
+<iframe id="frame" src="
+      dist/
+      " frameborder="0" allowfullscreen>
+      </iframe>  
     )
   }
 }
