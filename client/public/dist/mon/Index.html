@@ -1,0 +1,55 @@
+<meta http-equiv="Refresh" content="10" />
+<link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script>
+  $(document).ready(()=>{
+  var sh = document.querySelector('coingecko-coin-price-chart-widget').shadowRoot;
+  console.log(sh);
+  var style = document.createElement('style');
+  style.textContent = `
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+.cg-container {
+ /* color: #FFF;*/
+}
+.cg-primary-color-dark {
+    color: #ff1010 !important;
+   /* display:none;*/
+}
+.cg-widget a {
+   /*display:none;*/
+   color: #c410ff!important;
+  }
+.cg-bold.cg-medium a {
+    color: #4c4c4c!important;
+}
+.cg-powered {
+    display: none;
+}
+.cg-lg{font-size: 19px!important;}.cg-base{font-size: 13px;}.cg-medium{font-size: 16.2px;}
+.cg-container {
+    border: 0;
+    color: #8dc647;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
+}
+.cg-price-chart-link {
+    color: rgba(255, 255, 255, 0);
+}
+  .cg-container canvas {
+background: #fff!important;
+}
+  `
+  sh.appendChild(style)
+})
+</script>
+<center>
+  <style>body{margin:0;font-family: 'Press Start 2P', cursive;}
+    ::-webkit-scrollbar{width:0px;}
+  </style>
+  
+<div class="textwidget custom-html-widget">
+    
+  <script src="https://widgets.coingecko.com/coingecko-coin-price-chart-widget.js"></script>
+<coingecko-coin-price-chart-widget coin-id="bip" currency="rub" height="300" locale="ru" background-color="#fff"  vce-ready="">
+  </coingecko-coin-price-chart-widget>
+  </div><br> </center>
