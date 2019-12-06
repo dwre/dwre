@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css');
+body{font-family: 'Press Start 2P', cursive;margin:0;}
+::-webkit-scrollbar {
+    display:none;   
+    }
+
+
+
+/*   MID         */
+.mid {
+    height: 400px;
+    line-height: 400px;
+    text-align: center;
+    border: 2px dashed #4CAF50;
+  }
+  span {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+  }
+  span.addr,.pKey,.bKey {
+    font-size: 9px;
+    display: block;
+    text-align: center;
+    margin-top: 3px;
+    color: #FFC107;
+}
+.mid.pre{line-height: 3.5;height:unset; }
+pre {background-color: transparent;font-family: 'Press Start 2P', cursive;}
+
+  /*    */
+
+  .right {text-align: right;}

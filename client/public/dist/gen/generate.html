@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Crypto Wallet</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/minterjs-wallet"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link rel="stylesheet" href="wallet.css">
+</head>
+<body>
+<style>
+.header{
+        display:none;
+      }
+
+
+    input#myTextBox {
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+}
+p#test {
+    text-align: center;
+    padding: 15px;
+    border: 2px solid green;
+    background-color: green;
+    color: white;
+    font-weight: bolder;
+}
+p#generate {
+    text-align: center;
+    padding: 15px;
+    border: 2px solid green;
+    background-color: green;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+div#content {
+    width: 100%;
+    padding: 15px;
+    background-color: orange;
+    font-size: 12px;
+}
+    
+    </style>
+
+        <div class="form-group">
+
+
+      <!--  
+        <label for="code">код</label>
+          <input type="text" class="form-control" id="code" onchange="multi()" value="light impact able vapor view peanut vicious boring valley thrive name section">
+        </div>
+        <button onclick="multi()"  class="btn btn-primary" >активировать</button>
+
+
+        <script>
+        
+     function multi() { 
+        const mnc = document.getElementById('code').value;
+
+        const wTest = minterWallet.walletFromMnemonic(mnc);
+
+        const addr = wTest.getAddressString();
+
+        if (addr.length == 42 ) {
+            const addr = wTest.getAddressString();
+            console.log(addr.length);
+            console.log(addr);
+
+        }
+    }
+
+        
+        </script>
+
+    -->
+
+<!-- HTML -->
+<center>
+<div style="
+    width: 75%;
+">
+
+<p id='generate' class="header" onclick="gen()" >СГЕНЕРИРОВАТЬ</p>
+<br>
+
+
+<input id="myTextBox" type="text" placeholder=" SEED-ФРАЗЫ"/>
+<!-- JS -->
+<script>
+
+function act() {
+
+$('<br><p>Text</p>').appendTo('#Content');
+
+console.log('addr');
+
+} 
+
+var oneGen = false;
+
+function gen() {
+
+    if (oneGen == false) {
+
+    const wallet = minterWallet.generateWallet();
+
+    const mnec  = wallet.getMnemonic();
+
+    $('#generate').html(mnec);
+
+    oneGen = true;
+
+    }
+
+}
+
+var one = false;
+
+
+$("#myTextBox").bind("change paste keyup", function() {
+    const mnc1 = $(this).val();
+    const wTest1 = minterWallet.walletFromMnemonic(mnc1);
+    const addr = wTest1.getAddressString();
+    if ((addr.length == 42 ) && (one == false)) {
+            const addr = wTest1.getAddressString();
+            const pKey = wTest1.getPrivateKeyString();
+            console.log(addr.length);
+            console.log(addr);
+            $( "<br>адресс кошелька <p id='test' onclick='act()' >"+addr+"</p><br>приватный ключ для отправки<div id='content'>"+pKey+"</div>" ).appendTo( '#act' );
+            one = true;
+
+        }
+
+
+
+});
+
+
+</script>
+<br>
+<div id="act"></div>
+
+<br>
+</div>
+</center>
+
+
+
+<script>
+
+
+var SPY = function() {
+  function e(a, d, b) {
+    var c, f, g, h;
+    b == a.length ? k.animationComplete = !0 : (g = d.innerHTML, h = Math.floor(21 * Math.random() + 5), c = 32 == a[b] ? 32 : a[b] - h, f = setInterval(function() {
+      d.innerHTML = g + String.fromCharCode(c);
+      c == a[b] ? (clearInterval(f), c = 32, b++, setTimeout(function() {
+        e(a, d, b);
+      }, 10)) : c++;
+    }, 5));
+  }
+  var k = {};
+  return k = {animationComplete:!1, text:function(a) {
+    this.animationComplete = !1;
+    a = document.getElementById(a);
+    for (var d = a.innerHTML, b = [], c = 0;c < d.length;c++) {
+      b.push(d.charCodeAt(c));
+    }
+    a.innerHTML = "";
+    e(b, a, 0);
+  }};
+}();
+
+
+$( 'document' ).ready(function() {
+  
+  // Hide header
+  $( '.header' ).hide();
+  // Transition background
+  $( '.london' ).fadeIn( 1200 );
+  
+  
+  // Timeout for crypto text
+  setTimeout( function() { 
+    $( '.header' ).fadeIn( 'slow' );
+      SPY.text( 'generate' );
+  }, 1000);
+  
+});
+
+
+
+
+
+</script>
