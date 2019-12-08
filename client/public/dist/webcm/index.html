@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>HTML5 webcam demo with getUserMedia()</title>
+  
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<p><video id="video" autoplay="autoplay"></video></p>
+<p><input type="button" id="buttonSnap" value="Take screenshot" disabled="disabled" onclick="snapshot()" /></p>
+<p>
+<input type="button" id="buttonStart" value="Start" disabled="disabled" onclick="start()" />
+<input type="button" id="buttonStop" value="Stop" disabled="disabled" onclick="stop()" />
+</p>
+<p><canvas id="canvas"></canvas></p>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script  src="./script.js"></script>
+
+</body>
+</html>
