@@ -1,5 +1,5 @@
 /* BASICS */
-
+::-webkit-scrollbar{width: 3px;}
 .CodeMirror {
   /* Set height, width, borders, and global font properties here */
   font-family: monospace;
