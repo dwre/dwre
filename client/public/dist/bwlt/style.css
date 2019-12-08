@@ -271,7 +271,7 @@ input[type="submit"].btn-block,input[type="reset"].btn-block,input[type="button"
 body {
   font-family: 'helvetica neue', 'helvetica', 'arial';
   background-repeat: repeat-x repeat-y;
-  background-color:#ccc;
+ /*background-color:#ccc;*/
 }
 .footer {
   background-color:#aaa;
@@ -292,7 +292,7 @@ h1 .second-half {
   font-style: italic;
 }
 .form-container {
-  border: 2px solid #bbb;
+ /*border: 2px solid #bbb;*/
   border-radius:10px;
   background-color: #f8f8f4;
   padding:40px;
