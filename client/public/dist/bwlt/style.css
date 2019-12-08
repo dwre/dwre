@@ -7,7 +7,7 @@
  *
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
-::-webkit-scrollbar{width: 0px;}
+::-webkit-scrollbar{width: 3px;}
  .col-md-6 {
   /* width: 6%; */
   display: inline-block;
